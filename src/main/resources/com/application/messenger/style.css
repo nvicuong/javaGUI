@@ -1,0 +1,60 @@
+.gray-background {
+    -fx-background-color: #F1F0FE;
+}
+
+.more-gray-background {
+    -fx-background-color: #E7E6F6;
+}
+
+.white-background {
+    -fx-background-color: #FFFFFF;
+}
+
+.border-circle {
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+}
+
+.stroke-gray {
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 0.5;
+}
+
+.radius-circle {
+    -fx-border-radius: 50;
+}
+
+.border-chat-bubble-right {
+    -fx-background-radius: 10 0 10 10;
+    -fx-background-color: #635DD8;
+    -fx-text-fill: #FFFFFF;
+}
+
+.border-chat-bubble-left {
+    -fx-background-radius: 0 10 10 10;
+    -fx-background-color: #D67598;
+    -fx-text-fill: #FFFFFF;
+}
+
+.label-custom {
+    -fx-alignment: CENTER; /* Căn giữa cho text */
+    -fx-padding: 5 10 5 10 ; /* Padding 10px cho tất cả các bên */
+}
+
+.label-left {
+    -fx-alignment: CENTER_LEFT; /* Căn trái cho từng Label bên trái */
+    -fx-hgrow: ALWAYS; /* Cho phép Label mở rộng về bên phải */
+    -fx-padding: 0 0 10 0 ; /* Padding 10px cho tất cả các bên */
+}
+
+.label-right {
+    -fx-alignment: CENTER_RIGHT; /* Căn phải cho từng Label bên phải */
+    -fx-hgrow: ALWAYS; /* Cho phép Label mở rộng về bên trái */
+    -fx-padding: 0 0 10 0 ; /* Padding 10px cho tất cả các bên */
+}
+
+.label-status {
+    -fx-alignment: CENTER_RIGHT; /* Căn phải cho từng Label bên phải */
+    -fx-hgrow: ALWAYS; /* Cho phép Label mở rộng về bên trái */
+}
+
